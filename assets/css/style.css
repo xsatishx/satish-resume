@@ -22,6 +22,14 @@
   left: 0%;
   }
 
+  /* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
 /* Satish */
 .profile-pic {
   position: relative;
