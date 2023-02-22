@@ -1,9 +1,17 @@
-/* The actual content */
-.content {
-  padding: 20px 30px;
-  background-color: white;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
   position: relative;
-  border-radius: 6px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Satish */
