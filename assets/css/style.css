@@ -1,4 +1,8 @@
 /* The actual timeline (the vertical ruler) */
+* {
+  box-sizing: border-box;
+}
+
 .timeline {
   position: relative;
   max-width: 1200px;
