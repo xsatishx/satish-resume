@@ -1,13 +1,4 @@
-* {
-  box-sizing: border-box;
-}
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 /* Place the container to the left */
 .left {
   left: 0;
