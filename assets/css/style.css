@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 /* Satish */
 .profile-pic {
   position: relative;
