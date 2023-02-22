@@ -25,6 +25,16 @@
   width: 50%;
 }
 
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
 /* Satish */
 .profile-pic {
   position: relative;
