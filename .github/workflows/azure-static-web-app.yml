@@ -1,9 +1,9 @@
-name: Deploy to Azure Static Web Apps
+name: Deploy resume site to Azure Static Web Apps
 
 on:
   push:
     branches:
-      - master  # if you're using master
+      - master
 
 jobs:
   build-and-deploy:
@@ -13,12 +13,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Optional debug step to confirm secret exists (won't print it)
+      - name: Check deployment token presence
+        run: |
+          if [ -z "${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}" ]; then
+            echo "ERROR: AZURE_STATIC_WEB_APPS_API_TOKEN is not set!"
+            exit 1
+          else
+            echo "AZURE_STATIC_WEB_APPS_API_TOKEN is present."
+          fi
+
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"
-          api_location: ""
-          output_location: ""
+          app_location: "/"         # index.html at root
+          api_location: ""          # no API
+          output_location: ""       # no build output
