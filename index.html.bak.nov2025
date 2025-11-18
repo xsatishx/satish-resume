@@ -1,0 +1,773 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJEP5E3FKF"></script>
+  <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-CJEP5E3FKF');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Satish Balakrishnan | Cloud Architect</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Satish Balakrishnan | Cloud Architect" />
+  <meta property="og:description" content="Cloud Architect" />
+  <meta property="og:url" content="https://delightful-pond-08b7bce0f.2.azurestaticapps.net/" />
+  <meta property="og:site_name" content="Satish Balakrishnan | Cloud Architect" />
+  <meta property="article:publisher" content="https://delightful-pond-08b7bce0f.2.azurestaticapps.net/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@xsatishx" />
+  <meta name="twitter:title" content="Cloud | DevOps | startups | Health-tech | Blockchain | Investments | Author" />
+  <meta name="twitter:description" content="Cloud Architect" />
+  <meta name="twitter:url" content="https://twitter.com/xsatishx" />
+  <meta name="author" content="Satish Balakrishnan />
+  <meta name="description" content="Cloud Solution Architect with a passion for startups." />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Publications section" href="#publications" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Publications</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+     
+        <a aria-label="Open Satish's resume in a new tab" href="https://github.com/xsatishx/satish-resume/raw/master/assets/resume/SatishBalakrishnan0123.docx" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Satish Balakrishnan</a><span class="black-text">Cloud Architect</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Publications section" href="#publications" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Publications</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+<!-- SATISH   <li class="bold">
+        <a aria-label="Open Varad's Resume in a new tab"
+          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>  
+    -->
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Satish Balakrishnan</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Cloud architect with multi-skill and multi-domain experience to elevate any application, computing infrastructure or operations to the cloud. I have experience working across presales, postsales, consulting and delivery.I love to work with and help start-ups when possible..</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/satishbalakrishnan/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/xsatishx" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+           A Cloud Architect with passion for start-ups, scale ups and Healthtech.
+
+          </h2>
+        </blockquote> -->        
+        
+        
+        <p>I am a <b>Cloud Solutions Architect</b> focusing on Cloud infrastructure and Application Innovation for 'Strategic customers', spanning multi-country and multi-year commited deals.</p>
+        <p>My role involves helping our customers in their end-to-end digital transformation by engaging with senior stakeholders at every step of their journey, from piloting initial solutions to supporting them and guiding their evolution to the ever-changing business needs. </p>
+        <p>To help mitigate customers' challenges, I conduct architectural design sessions, Cloud Adoption Frameworks and Well-Architected Framework workshops.</p>
+        <p>I routinely speak at customer or partner events and have won the Microsoft event speaker silver award.</p>
+        <p>In my career, I have worked across domain but majority of my exerience bas been in the healthcare domain and FSI domain. </p>
+        <p>One of my proudest moments was to lead a team for a fast-paced startup right from its inception to its acquisition within four years. </p>
+        <p><b>I love helping</b>, I mentor on <a href="https://mentors.to/satish"> Mentorcruise</a> and I am rated as one of their top mentors.</p>
+      </div>
+    </section>
+
+
+
+    
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+ <!-- First AU Experience -->
+ <div class="card">
+  <div class="card-content">
+    <div class="row">
+      <div class="col s12 m2">
+        <a href="https://www.pwc.com.au/" target="_blank"><img alt="pwc logo"
+            src="/assets/img/pwc.png" class="responsive-img center-block" /></a>
+      </div>
+      <div class="col s12 m10">
+        <p>
+          <span class="card-title"><a href="https://www.pwc.com.au/" target="_blank"
+              class="teal-text hoverline">PwC</a></span>
+        </p>
+      </div>
+    </div>
+    <div class="role brown-text text-darken-2">Director</div>
+    <ul>
+      <li>
+          Cloud strategy, architecture, design and build
+      </li>
+      <li>
+          Proof of concepts, Demos, respoding to RFP and RFT on cloud and DevSecOps 
+      </li>
+      <li>
+          Leadership in cloud and specifically Azure related technologies.
+      </li>
+    </ul>
+  </div>
+  <div class="card-action">
+    <span>July 2023 - Present | Australia</span>
+  </div>
+</div>
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.microsoft.com/" target="_blank"><img alt="Miicrosoft logo"
+                    src="/assets/img/microsoft.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.microsoft.com/" target="_blank"
+                      class="teal-text hoverline">Microsoft</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Sr. Cloud Solutions Archtect</div>
+            <ul>
+              <li>
+                  Cloud Architecture design, Cloud Adoption framework
+              </li>
+              <li>
+                  Technical troubleshooting and unblocking customer issues
+              </li>
+              <li>
+                  Collaborate and encourage cross functional work streams
+              </li>
+              <li>
+                 Hybrid cloud using Azure Arc
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Jan 2021 - July 2023 | Singapore</span>
+          </div>
+        </div>
+
+      <!-- Experience 1 -->  
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.hpe.com" target="_blank"><img alt="HPE logo"
+                    src="/assets/img/hpelogo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="http://hpe.com" target="_blank"
+                      class="teal-text hoverline">Hewlett Packard Enterprise</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Solutions Architect</div>
+            <ul>
+             <li>
+                Presales architect for cloud and DevSecOps
+            </li>
+            <li>
+                Proof of concepts and Pilots across Cloud, Containers and DevSecOps
+            </li>
+            <li>
+                Technical and Financial responses to RFPs and RFIs
+            </li>
+            <li>
+                Upskilling internal teams and the sales team on new technologies.
+            </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Nov 2019 - Dec 2020 | Singapore</span>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <img alt="Accenture logo" src="/assets/img/accenturelogo.jpg" class="responsive-img center-block" />
+              </div>
+            <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#experience" class="teal-text hoverline">Accenture</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Technology Consulting Manager</div>
+            <ul>
+              <li>
+                Technology Advisory for FSI
+              </li>
+              <li>
+                Large scale migrations and delivery
+              </li>
+              <li>
+                Implementing DevOps principles and toolchain
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Dec 2018 - Nov 2019 | Singapore</span>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.tempus.com/" target="_blank"><img alt="HealthSeq logo"
+                    src="/assets/img/healthseq.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.tempus.com/" target="_blank"
+                      class="teal-text hoverline">HealthSeq Asia</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Director of Engineering</div>
+            <ul>
+              <li>
+                  Leading a team to build and operate a private cloud from scratch for Healthcare sector
+              </li>
+              <li>
+                  Deciding on the technology stack, Designing the architecture and technical troubleshooting
+              </li>
+              <li>
+                  Managing people and processes, day to day operations and technology expenses
+              </li>
+              <li>
+                  Presenting to customers, onboarding and ensuring customer satisfaction
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Sep 2015 - Dec 2018 | Singapore</span>
+          </div>
+        </div>
+      
+    
+              <!-- Experience 4 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.accenture.com/" target="_blank"><img alt="Accenture logo"
+                    src="/assets/img/accenturelogo.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.accenture.com/" target="_blank"
+                      class="teal-text hoverline">Accenture</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Team Lead</div>
+            <ul>
+              <li>
+                  Large cloud migration for telco client.            
+              </li>
+              <li>
+                  Deployment Automation using configuration management and DevOps           
+              </li>
+              <li>
+                  Multiple cloud based deliveries hands-on as well as managing a team.           
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>July 2013 - Sep 2015 | India</span>
+          </div>
+        </div>
+      
+
+        <!-- Experience 5 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.smart.mit.edu/" target="_blank"><img alt="SMART logo"
+                    src="/assets/img/smart.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.smart.mit.edu/" target="_blank"
+                      class="teal-text hoverline">S.M.A.R.T</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Developer</div>
+            <ul>
+              <li>
+                  Developed a program in PERL to find potential drug tagets using three dimensional data.
+              </li>
+              <li>
+                  Containerized the code to make it portable to be used by researchers
+            </li>
+           
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Jan 2012 - April 2013 | Singapore</span>
+          </div>
+        </div>
+     
+        <!-- Experience 6 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.persistent.com/" target="_blank"><img alt="Persistent Systems logo"
+                    src="/assets/img/persistent.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.persistent.com/" target="_blank"
+                      class="teal-text hoverline">Persistent Systems</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Software Analyst</div>
+            <ul>
+              <li>
+                Automated Testing
+              </li>
+              <li>
+                bash/ruby scripts to perform browser automation
+              </li>
+           
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Dec 2010 - Dec 2011 | India</span>
+          </div>
+        </div>
+      
+
+        <!-- Experience 7 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.actrec.gov.in/" target="_blank"><img alt="ACTREC logo"
+                    src="/assets/img/actrec.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.actrec.gov.in/" target="_blank"
+                      class="teal-text hoverline">ACTREC</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Junior Research Fellow</div>
+            <ul>
+              <li>
+                Cancer research using Bioinformatics 
+              </li>
+              <li>
+                Helped the institute setup their Bioinformatics labs and tools.
+             </li>
+             <li>
+               Multiple publications in peer reviewed journals.
+             </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>July 2008 - Sept 2010 | India</span>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- Third Section: Publications -->
+    <section id="publications" class="section scrollspy">
+      <h3 class="page-title white-text teal">Publications</h3>
+      <div class="container flow-text">
+        <B>Journals</B>
+      <ol>  
+        <li><a href="https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0005700">A Sequence and Structure Based Method to Predict Putative Substrates, Functions and Regulatory Networks of Endo Proteases</a></li>
+        <li><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0034864">Direct Ubiquitin Independent Recognition and Degradation of a Folded Protein by the Eukaryotic Proteasomes-Origin of Intrinsic Degradation Signals</a></li>
+        <li><a href="https://bmcstructbiol.biomedcentral.com/articles/10.1186/1472-6807-14-9">Structural interrogation of phosphoproteome identified by mass spectrometry reveals allowed and disallowed regions of phosphoconformation</a></li>
+        <li><a href="https://www.cdotrends.com/story/16003/taking-blockchain-route-decentralizing-smart-cities">Taking the Blockchain Route To Decentralizing Smart Cities</a></li>
+        <li><a href="https://www.techopedia.com/blockchain-and-healthcare-data-tracking-and-sharing-healthcare-data/2/34621">Blockchain and Healthcare Data: Tracking and Sharing Healthcare Data</a></li>
+        <li><a href="https://www.blockchain-council.org/blockchain/blockchain-the-evolution-that-election-process-needs/">Blockchain : The Evolution That Election Process Needs</a></li>
+        <BR>
+      </ol>
+      <B>Book</B> <li><a href="https://books.google.com.sg/books?id=7zlRzgEACAAJ&dq=satish+balakrishnan">Terraforming the Cloud</a></li>
+      <BR>
+        <B>Articles</B>
+          <li><a href="https://satish-b.medium.com/investments-101-89251d82e846">Investments 101</a></li>
+          <li><a href="https://satish-b.medium.com/safe-investment-option-with-17-5-annualized-returns-bfbd6bed79d4">Recession proof investment</a></li>
+          <li><a href="https://medium.com/coinmonks/blockchain-101-4094a048bf13">Introduction to Blockchain</a></li>
+          <li><a href="https://aws.plainenglish.io/kubernetes-101-c9b20e2b1c25">Introduction to Kubernetes</a></li>
+          <li><a href="https://aws.plainenglish.io/velero-for-kubernetes-cluster-backup-55436107ef9c">Velero for Kubernetes Backup</a></li>
+          <li><a href="https://aws.plainenglish.io/governance-and-tests-in-kubernetes-9cb0bca90dd8">Governance and Tests in Kubernetes</a></li>
+          <li><a href="https://www.pwc.com.au/digitalpulse/driving-business-growth-with-hybrid-cloud-and-microsoft-azure-arc.html">The future is hybrid</a></li>
+        and <a href="https://satish-b.medium.com/">more...</a>
+      </div>
+    </section>
+
+
+
+    <!-- Fifth Section: Skills and Certifications -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Skills and Certifications</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/azure-fundamentals.png" class="responsive-img" />Azure Fundamentals
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/azure-ai-fundamentals.png" class="responsive-img" />Azure AI Fundamentals
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/azure-data-fundamentals.png" class="responsive-img" />Azure Data Fundamentals
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/azure-administrator-associate.png" class="responsive-img" />Azure Administrator Associate
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/azure-solutions-architect-expert.png" class="responsive-img" />Azure Solutions Architect Expert 
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/awsdev.png" class="responsive-img" />AWS Developer Associate
+              </div>
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/awssaa.png" class="responsive-img" />AWS Solutions Architect Associate
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/awsdevops.png" class="responsive-img" />AWS DevOps Engineer Professional
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/terraformcert.png" class="responsive-img" />Certified Terraform Associate
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/ckacert.png" class="responsive-img" />Certified Kubernetes Administrator
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/Event-Speaker-Silver.png" class="responsive-img" />Event Speaker Silver Award
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/Containers.png" class="responsive-img" />Openhack - Containers
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/security.png" class="responsive-img" />Openhack - Security
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/hack2021.png" class="responsive-img" />Global Hackathon 2021
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/hack2022.png" class="responsive-img" />Global Hackathon 2022
+              </div>
+        </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="http://www.dypatil.edu/bio/index.php" target="_blank" class="teal-text hoverline">School of Biotechnology and Bioinformatics - D Y Patil University</a></span>
+                </p>
+                <p class="brown-text">Navi Mumbai, India</p>
+                <p>
+                  <b>Degree: </b>Master of Technology in Bioinformatics            
+                </p>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://ves.ac.in/" target="_blank" class="teal-text hoverline">Vivekanand Education Society - Mumbai University</a></span>
+                </p>
+                <p class="brown-text">Mumbai, India</p>
+                <p>
+                  <b>Degree: </b>Bachelor of Science in Biotechnology
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+        </p>
+
+        </p>
+        <p>
+          <a aria-label="Email Satish" href="mailto:balakrishnan.satish@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Satish" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Satish" href="mailto:balakrishnan.satish@gmail.com"
+              class="hoverline">balakrishnan.satish@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Satish on GitHub" href="http://github.com/xsatishx" target="_blank"
+            data-position="top" data-tooltip="View Satish on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Satish on Github" href="http://github.com/xsatishx" class="hoverline"
+              target="_blank">github.com/xsatishx</a></a>
+        </p>
+        <p>
+          <a aria-label="View Satish on LinkedIn" href="https://www.linkedin.com/in/satishbalakrishnan/" target="_blank"
+            data-position="top" data-tooltip="View Satish on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Satish on LinkedIn" href="https://www.linkedin.com/in/satishbalakrishnan/
+              class="hoverline" target="_blank">linkedin.com/in/satishbalakrishnan</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Cloud Architect", "Hashicorp Ambassador", "DevOps specialist", "Tech Author", "Personal finance enthusiast", "start up lover"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
